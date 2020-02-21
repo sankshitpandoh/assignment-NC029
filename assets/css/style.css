@@ -171,13 +171,16 @@ p{
 .dream-container-top{
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 .dream-location .dream-content-section{
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
 .dream-location .dream-content-section .text-section{
-  width: 50%
+  width: 50%;
+  padding-left: 10%
 }
 .dream-location .dream-content-section .text-section h2{
   padding: 25px 0px
@@ -190,6 +193,18 @@ p{
 }
 .dream-location .top-section .text-section{
   order:1
+}
+.dream-location .top-section .text-section:after{
+  content: "";
+  height: 460px;
+  position: absolute;
+  top: -21%;
+  left: 55%;
+  width: 0;
+  transform: rotate(90deg);
+  border-left: 0px solid transparent;
+  border-right: 460px solid transparent;
+  border-bottom: 190px solid #f7f7f7;
 }
 .dream-location .top-section .t-d-image{
   background-image: url(../images/image1.jpg);
@@ -205,9 +220,22 @@ p{
 .dream-container-bottom{
   display: flex;
   justify-content: flex-start;
+  position: relative;
 }
 .dream-location .bottom-section .text-section{
   order:2
+}
+.dream-location .bottom-section .text-section:after{
+  content: "";
+  height: 460px;
+  position: absolute;
+  top: -21%;
+  left: 20.9%;
+  width: 0;
+  transform: rotate(270deg);
+  border-left: 0px solid transparent;
+  border-right: 460px solid transparent;
+  border-bottom: 190px solid #f7f7f7;
 }
 .dream-location .bottom-section .display-image{
   background-image: url(../images/image2.jpg);
