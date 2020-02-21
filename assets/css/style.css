@@ -183,7 +183,8 @@ p{
   padding-left: 10%
 }
 .dream-location .dream-content-section .text-section h2{
-  padding: 25px 0px
+  padding: 25px 0px;
+  font-weight: 400
 }
 .dream-location .dream-content-section .text-section p{
   width: 55%;
@@ -249,7 +250,7 @@ p{
 /* -------footer starts here----------- */
 .footer-main{
   background-color: #f7f7f7;
-  padding: 0
+  padding: 20px 0;
 }
 .footer-main .footer-container{
   width: 1280px;
