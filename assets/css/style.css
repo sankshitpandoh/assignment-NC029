@@ -25,6 +25,9 @@ ul,li{
 a{
   text-decoration: none
 }
+/* global css ends */
+
+/* font face starts */
 @font-face {
      font-family: 'Avenir-Light';
      src: url('../fonts/Avenir-Book.woff') format('woff'),
@@ -38,10 +41,14 @@ a{
       font-weight: normal;
       font-style: normal;
   }
+/* font-face ends */
 
+/* page wrapper */
 .pageWrapper{
   position: relative;
 }
+/* page wrapper ends here */
+
 /* ------------header starts here--------------- */
 .header-main{
   background-color: white;
@@ -76,11 +83,16 @@ a{
 .header-main .header-container .header-nav li{
   padding-top: 19px
 }
+.header-main .header-container .header-nav li:nth-child(1){
+  padding-left: 16px;
+}
 .header-main .header-container .header-nav li:nth-child(2){
-  margin-right: 63px;
+  margin-right: 78px;
+  padding-left: 12px
 }
 .header-main .header-container .header-nav li:nth-child(4){
-  margin-left: 63px;
+  margin-left: 78px;
+  padding-right: 12px
 }
 .header-main .header-container .header-nav li a{
   color: #706f6f;
@@ -96,7 +108,7 @@ a{
 .header-main .header-container .header-nav li a:hover{
   background-color: #e7e7e7
 }
-
+  /* -----social nav (with icons)---------- */
 .social-nav{
   display: flex;
   flex-direction: row;
@@ -119,29 +131,33 @@ a{
   justify-content: center;
   align-items: center;
 }
+  /* -----social nav (with icons) ends---------- */
 .h-s-nav{
-  padding-left: 79px;
+  padding-left: 75px;
   padding-right: 83px
 }
+/* ------------header ends here--------------- */
+
+/* ---------------content-section begins here--------------- */
+
+/* ------------hero-banner begins here----------- */
 .hero-banner{
   width: 100%;
-  margin-bottom: 25px;
 }
 .hero-banner-slider{
   max-width: 100%;
 }
 .hero-banner .hero-banner-slider .item{
-  margin-top: -32px;
+  margin-top: -2px;
 }
+.hero-banner .owl-carousel .owl-dots{
+  display: none;
+}
+/* ------------hero-banner ends here----------- */
 
-/* .hero-banner .item{
-  background-image:url("../images/slide1.jpg");
-  padding-bottom: 54%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: -32px
-} */
+/* ---------------content-section ends here--------------- */
 
+/* -------footer starts here----------- */
 .footer-main{
   background-color: #f7f7f7;
   padding: 0
@@ -155,6 +171,9 @@ a{
   font-family: 'GothamLight';
   font-size: 20px
 }
+.footer-container p{
+  font-size: 30px
+}
 .footer-main .footer-right{
   display: flex;
   align-items: center;
@@ -162,3 +181,4 @@ a{
 .f-s-nav{
   padding-left: 25px;
 }
+/* -------footer ends here----------- */
