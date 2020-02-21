@@ -25,6 +25,14 @@ ul,li{
 a{
   text-decoration: none
 }
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0
+}
+p{
+  margin: 0;
+  padding: 0
+}
 /* global css ends */
 
 /* font face starts */
@@ -51,7 +59,7 @@ a{
 
 /* ------------header starts here--------------- */
 .header-main{
-  background-color: white;
+  background-color: #ebe9e7;
   opacity: 0.85;
   z-index: 2;
   position: fixed;
@@ -63,7 +71,7 @@ a{
   justify-content: flex-end;
 }
 .header-container{
-  width: 81.5%;
+  width: 1550px;
   padding-top: 23px;
   padding-bottom: 16px;
   display: flex;
@@ -96,7 +104,7 @@ a{
 }
 .header-main .header-container .header-nav li a{
   color: #706f6f;
-  border: 1.5px solid #878786;
+  border: 1.5px solid #878787;
   width:150px;
   height: 40px;
   display: flex;
@@ -106,7 +114,7 @@ a{
   align-items: center;
 }
 .header-main .header-container .header-nav li a:hover{
-  background-color: #e7e7e7
+  background-color: #e7e7e7;
 }
   /* -----social nav (with icons)---------- */
 .social-nav{
@@ -154,6 +162,59 @@ a{
   display: none;
 }
 /* ------------hero-banner ends here----------- */
+
+/* ----------dream location section begins here--------- */
+.dream-location{
+  background-color: #f7f7f7;
+  font-family: 'Avenir-Light';
+}
+.dream-container-top{
+  display: flex;
+  justify-content: flex-end;
+}
+.dream-location .dream-content-section{
+  display: flex;
+  overflow: hidden;
+}
+.dream-location .dream-content-section .text-section{
+  width: 50%
+}
+.dream-location .dream-content-section .text-section h2{
+  padding: 25px 0px
+}
+.dream-location .dream-content-section .text-section p{
+  width: 55%;
+  padding-bottom: 25px;
+  color: #878787;
+  letter-spacing: 1.4px
+}
+.dream-location .top-section .text-section{
+  order:1
+}
+.dream-location .top-section .t-d-image{
+  background-image: url(../images/image1.jpg);
+  order:2;
+}
+.dream-location .dream-content-section .display-image{
+  width: 50%;
+  padding-bottom: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -6%
+}
+.dream-container-bottom{
+  display: flex;
+  justify-content: flex-start;
+}
+.dream-location .bottom-section .text-section{
+  order:2
+}
+.dream-location .bottom-section .display-image{
+  background-image: url(../images/image2.jpg);
+  order:1;
+  overflow: hidden;
+}
+/* ----------dream location section ends here----------- */
 
 /* ---------------content-section ends here--------------- */
 
