@@ -56,9 +56,9 @@ a{
   justify-content: flex-end;
 }
 .header-container{
-  width: 1280px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  width: 81.5%;
+  padding-top: 23px;
+  padding-bottom: 16px;
   display: flex;
   align-items: center;
 }
@@ -70,8 +70,17 @@ a{
   padding: 20px 0px;
   font-family: 'Avenir-Light';
 }
+.header-main .header-container .header-nav figure img{
+  width: 300px
+}
 .header-main .header-container .header-nav li{
-  padding-top: 10px
+  padding-top: 19px
+}
+.header-main .header-container .header-nav li:nth-child(2){
+  margin-right: 63px;
+}
+.header-main .header-container .header-nav li:nth-child(4){
+  margin-left: 63px;
 }
 .header-main .header-container .header-nav li a{
   color: #706f6f;
