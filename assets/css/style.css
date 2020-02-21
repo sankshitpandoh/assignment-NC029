@@ -3,12 +3,18 @@ body{
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-
+}
+*{
+  box-sizing: border-box;
 }
 figure{
   padding: 0;
   margin: 0;
   line-height: 0;
+}
+img{
+  max-width: 100%;
+  max-height: 100%
 }
 ul,li{
   text-decoration: none;
@@ -25,8 +31,13 @@ a{
       url('../fonts/Avenir-Book.woff2') format('woff2');
      font-weight: normal;
      font-style: normal;
-
  }
+ @font-face {
+      font-family: 'GothamLight';
+      src: url('../fonts/GothamLight.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
 
 .pageWrapper{
   position: relative;
@@ -79,8 +90,6 @@ a{
 }
 .hero-banner{
   width: 100%;
-  position: absolute;
-  top: 0%;
   margin-bottom: 25px;
 }
 .hero-banner-slider{
@@ -89,6 +98,7 @@ a{
 .hero-banner .hero-banner-slider .item{
   margin-top: -32px;
 }
+
 /* .hero-banner .item{
   background-image:url("../images/slide1.jpg");
   padding-bottom: 54%;
@@ -99,8 +109,41 @@ a{
 
 .footer-main{
   background-color: #f7f7f7;
+  padding: 0
 }
 .footer-main .footer-container{
   width: 1280px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'GothamLight';
+  font-size: 20px
+}
+.footer-main .footer-right{
+  display: flex;
+  align-items: center;
+}
+.footer-main .footer-social-nav{
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-main .footer-social-nav li{
+  padding-left: 5px;
+}
+.footer-main .footer-social-nav a{
+  color: white;
+}
+.footer-main .footer-social-nav a:hover figure{
+  background-color: #575656;
+}
+.footer-main .footer-social-nav a figure{
+  background-color: #878787;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
