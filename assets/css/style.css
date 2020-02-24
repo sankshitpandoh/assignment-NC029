@@ -309,7 +309,6 @@ p{
 .connect-with-us{
   background-color: #f7f7f7;
   font-family: 'Avenir-Light';
-
 }
 .section-heading{
   display: flex;
@@ -322,11 +321,12 @@ p{
   width: 75%;
   text-align: center;
   letter-spacing: 1.2px;
+  padding-bottom: 75px;
 }
 .connect-with-us .connect-nav{
   width: 65%;
   justify-content: space-between;
-  padding: 50px 0;
+  padding-bottom: 50px ;
 }
 .connect-with-us .connect-nav a{
   display: flex;
@@ -345,6 +345,7 @@ p{
   flex-wrap: wrap;
   width: 70%;
   justify-content: center;
+  padding-bottom: 75px
 }
 .display-grid .card{
   max-width: 25%;
@@ -367,6 +368,50 @@ p{
   margin: 10px;
 }
 /* ---------------------connect with us ends here------------------ */
+
+/* -----------about your next event begins here------------ */
+.next-event{
+  font-family: 'Avenir-Light';
+}
+.next-event .two-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.next-event .two-col .first-col{
+  width: 50%
+}
+.next-event .two-col .second-col{
+  width: 50%;
+}
+.next-event .two-col .second-col form{
+  display: flex;
+  flex-wrap: wrap;
+}
+.next-event .two-col .second-col form input{
+  border: none;
+  background-color: #f8f8f8;
+  margin: 10px 8px;
+  padding: 10px;
+  width: 45%
+}
+.next-event .two-col .second-col form .send{
+  width: 25%;
+  float: right;
+}
+.next-event .two-col .second-col form input:nth-child(3){
+  width: 92%
+}
+.next-event .two-col .second-col form textarea{
+  border: none;
+  background-color: #f8f8f8;
+  margin: 10px 8px;
+  padding: 10px;
+  height: 25%;
+  width: 92%
+}
+
+/* -----------about your next event ends here------------- */
 
 /* ---------------content-section ends here--------------- */
 
