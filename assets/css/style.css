@@ -332,6 +332,9 @@ p{
   display: flex;
   align-items: center;
 }
+.connect-with-us .connect-nav a:hover p{
+  text-decoration: underline;
+}
 .connect-with-us .connect-nav a p{
   color: black;
   padding-left: 10px;
@@ -346,16 +349,21 @@ p{
 .display-grid .card{
   max-width: 25%;
   margin: 10px;
+
 }
+.display-grid .card figure:hover{
+  filter: blur(2px);
+}
+
 .display-grid .card figure img{
-  width: 100%
+  width: 100%;
 }
 .display-grid .card:nth-child(1){
-  max-width: 43%;
+  max-width: 50%;
   margin: 10px;
 }
 .display-grid .card:nth-child(3n+4){
-  max-width: 43%;
+  max-width: 50%;
   margin: 10px;
 }
 /* ---------------------connect with us ends here------------------ */
