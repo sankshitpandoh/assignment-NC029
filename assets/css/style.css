@@ -252,23 +252,24 @@ p{
 .e-testimonials{
   font-family: 'Avenir-Light';
 }
-.e-testimonials .container{
+.container{
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 75px;
+  padding: 0 10%;
 }
-.e-testimonials .section-heading h2{
+.section-heading h2{
   font-weight: 400;
   font-size: 35px;
   margin-bottom: 50px;
+  margin-top: 75px;
 }
 .e-testimonials .testimonial-grid{
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
-  padding: 0 10%;
+
 }
 .testimonial-grid .card{
   display: flex;
@@ -280,7 +281,7 @@ p{
   padding-bottom: 50px;
 }
 .testimonial-grid .card .card-text{
-  width: 70%
+  width: 65%
 }
 .testimonial-grid .card .card-text h3{
   font-weight: 300;
@@ -290,13 +291,13 @@ p{
 }
 .testimonial-grid .card .card-text p{
   color: #878787;
-  font-size: 19px;
+  font-size: 18px;
 }
 .testimonial-grid .card figure{
   border-radius: 50%;
   width: 175px;
   height: 175px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .testimonial-grid .card figure img{
   border-radius: 50%;
@@ -304,6 +305,39 @@ p{
   height: 175px;
 }
 /* ------------------e-testimonials end here-------------- */
+/* ---------------------connect with us starts here------------------ */
+.connect-with-us{
+  background-color: #f7f7f7;
+  font-family: 'Avenir-Light';
+
+}
+.section-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-heading p{
+  color: #878787;
+  font-size: 20px;
+  width: 75%;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.connect-with-us .connect-nav{
+  width: 75%;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.connect-with-us .connect-nav a{
+  display: flex;
+  align-items: center;
+}
+.connect-with-us .connect-nav a p{
+  color: black;
+  padding-left: 10px;
+  font-size: 13px;
+}
+/* ---------------------connect with us ends here------------------ */
 /* ---------------content-section ends here--------------- */
 
 /* -------footer starts here----------- */
