@@ -171,7 +171,7 @@ p{
 .dream-container-top{
   display: flex;
   justify-content: flex-end;
-  position: relative;
+  /* position: relative; */
 }
 .dream-location .dream-content-section{
   display: flex;
@@ -180,7 +180,8 @@ p{
 }
 .dream-location .dream-content-section .text-section{
   width: 50%;
-  padding-left: 10%
+  padding-left: 10%;
+  padding-bottom: 5%;
 }
 .dream-location .dream-content-section .text-section h2{
   padding: 25px 0px;
@@ -195,28 +196,28 @@ p{
 .dream-location .top-section .text-section{
   order:1
 }
-.dream-location .top-section .text-section:after{
-  content: "";
-  height: 460px;
-  position: absolute;
-  top: -21%;
-  left: 55%;
-  width: 0;
-  transform: rotate(90deg);
-  border-left: 0px solid transparent;
-  border-right: 460px solid transparent;
-  border-bottom: 190px solid #f7f7f7;
-}
-.dream-location .top-section .t-d-image{
+.dream-location .top-section .display-image{
   background-image: url(../images/image1.jpg);
+  transform: skew(30deg, 0deg);
+  position: absolute;
+  left: -17%;
+  bottom: 0%
+}
+.dream-location .top-section .skew-container{
+  transform-origin: bottom left;
+  transform: skew(-30deg, 0deg);
+  width: 50%;
+  display: block;
+  height: inherit;
+  overflow: hidden;
   order:2;
+  position: relative;
 }
 .dream-location .dream-content-section .display-image{
-  width: 50%;
-  padding-bottom: 30%;
+  width: 100%;
+  padding-bottom: 59%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -6%
 }
 .dream-container-bottom{
   display: flex;
@@ -226,22 +227,22 @@ p{
 .dream-location .bottom-section .text-section{
   order:2
 }
-.dream-location .bottom-section .text-section:after{
-  content: "";
-  height: 460px;
-  position: absolute;
-  top: -21%;
-  left: 20.9%;
-  width: 0;
-  transform: rotate(270deg);
-  border-left: 0px solid transparent;
-  border-right: 460px solid transparent;
-  border-bottom: 190px solid #f7f7f7;
+.dream-location .bottom-section .skew-container{
+  transform-origin: right top;
+  transform: skew(-30deg, 0deg);
+  width: 50%;
+  display: block;
+  height: inherit;
+  overflow: hidden;
+  order:1;
+  position: relative;
 }
 .dream-location .bottom-section .display-image{
   background-image: url(../images/image2.jpg);
-  order:1;
-  overflow: hidden;
+  transform: skew(30deg, 0deg);
+  position: absolute;
+  right: -17%;
+  top: 0%
 }
 /* ----------dream location section ends here----------- */
 
