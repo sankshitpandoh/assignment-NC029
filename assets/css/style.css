@@ -376,10 +376,13 @@ p{
 .next-event .two-col{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  padding-bottom: 75px;
+  justify-content: space-between;
 }
 .next-event .two-col .first-col{
-  width: 50%
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
 }
 .next-event .two-col .second-col{
   width: 50%;
@@ -391,13 +394,15 @@ p{
 .next-event .two-col .second-col form input{
   border: none;
   background-color: #f8f8f8;
-  margin: 10px 8px;
+  margin-bottom: 15px;
   padding: 10px;
+  margin-right: 16px;
   width: 45%
 }
 .next-event .two-col .second-col form .send{
   width: 25%;
   float: right;
+  margin-left: 67%
 }
 .next-event .two-col .second-col form input:nth-child(3){
   width: 92%
@@ -405,10 +410,27 @@ p{
 .next-event .two-col .second-col form textarea{
   border: none;
   background-color: #f8f8f8;
-  margin: 10px 8px;
+  margin-bottom: 15px;
   padding: 10px;
-  height: 25%;
+  height: 110px;
   width: 92%
+}
+.next-event .two-col .second-col .address h3{
+  font-weight: 400;
+  font-size: 23px;
+  padding-bottom: 25px;
+}
+.next-event .two-col .second-col .address p{
+  padding-bottom: 25px;
+}
+.next-event .two-col .second-col .address .contact-numbers{
+  display: flex;
+  max-width: 50%;
+  flex-wrap: wrap;
+}
+.next-event .two-col .second-col .address .contact-numbers .number{
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
 /* -----------about your next event ends here------------- */
