@@ -171,7 +171,6 @@ p{
 .dream-container-top{
   display: flex;
   justify-content: flex-end;
-  /* position: relative; */
 }
 .dream-location .dream-content-section{
   display: flex;
@@ -181,17 +180,20 @@ p{
 .dream-location .dream-content-section .text-section{
   width: 50%;
   padding-left: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 .dream-location .dream-content-section .text-section h2{
-  padding: 25px 0px;
-  font-weight: 400
+  padding: 35px 0px;
+  font-weight: 400;
+  font-size: 35px
 }
 .dream-location .dream-content-section .text-section p{
-  width: 55%;
+  width: 65%;
   padding-bottom: 25px;
   color: #878787;
-  letter-spacing: 1.4px
+  line-height: 1.1;
+  letter-spacing: 1px;
+  font-size: 20px
 }
 .dream-location .top-section .text-section{
   order:1
@@ -246,6 +248,62 @@ p{
 }
 /* ----------dream location section ends here----------- */
 
+/* ---------------e-testimonials start here------------- */
+.e-testimonials{
+  font-family: 'Avenir-Light';
+}
+.e-testimonials .container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px;
+}
+.e-testimonials .section-heading h2{
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.e-testimonials .testimonial-grid{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0 10%;
+}
+.testimonial-grid .card{
+  display: flex;
+  flex-direction: column;
+  max-width: 33.33%;
+  flex: 0 0 33.33%;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.testimonial-grid .card .card-text{
+  width: 70%
+}
+.testimonial-grid .card .card-text h3{
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.testimonial-grid .card .card-text p{
+  color: #878787;
+  font-size: 19px;
+}
+.testimonial-grid .card figure{
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin-bottom: 20px;
+}
+.testimonial-grid .card figure img{
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+}
+/* ------------------e-testimonials end here-------------- */
 /* ---------------content-section ends here--------------- */
 
 /* -------footer starts here----------- */
