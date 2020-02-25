@@ -68,7 +68,6 @@ p{
   right: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 .header-container{
   width: 1550px;
@@ -76,17 +75,19 @@ p{
   padding-bottom: 16px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  justify-content: center;
 }
 .header-main .header-container .header-nav{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 60%;
   justify-content: space-between;
   padding: 5px 0px;
   font-family: 'Avenir-Light';
 }
 .header-main .header-container .header-nav figure img{
-  width: 300px
+  width: 210px
 }
 .header-main .header-container .header-nav li{
   padding-top: 19px
@@ -105,10 +106,10 @@ p{
 .header-main .header-container .header-nav li a{
   color: #717171;
   border: 1.5px solid #717171;
-  width:135px;
-  height: 30px;
+  width:90px;
+  height: 25px;
   display: flex;
-  font-size: 12.5px;
+  font-size: 10px;
   font-weight: 400;
   justify-content: center;
   align-items: center;
@@ -142,12 +143,17 @@ p{
   /* -----social nav (with icons) ends---------- */
 .h-s-nav{
   padding-left: 75px;
-  padding-right: 83px
+  padding-right: 83px;
+  position: absolute;
+  right: 75px;
+}
+.h-s-nav a figure{
+  height: 25px;
+  width: 25px;
 }
 /* ------------header ends here--------------- */
 
 /* ---------------content-section begins here--------------- */
-
 /* ------------hero-banner begins here----------- */
 .hero-banner{
   width: 100%;
@@ -180,18 +186,19 @@ p{
 .dream-location .dream-content-section .text-section{
   width: 50%;
   padding: 20px 0px 75px 170px;
+  height: 400px;
 }
 .dream-location .dream-content-section .text-section h2{
   padding: 35px 0px;
   font-weight: 400;
-  font-size: 35px
+  font-size: 30px
 }
 .dream-location .dream-content-section .text-section p{
   width: 65%;
   padding-bottom: 25px;
   color: #878787;
   line-height: 1.1;
-  letter-spacing: 1px;
+  letter-spacing: 0.9px;
   font-size: 20px
 }
 .dream-location .top-section .text-section{
@@ -209,7 +216,6 @@ p{
   transform: skew(-30deg, 0deg);
   width: 50%;
   display: block;
-  height: inherit;
   overflow: hidden;
   order:2;
   position: relative;
@@ -267,9 +273,9 @@ p{
 .e-testimonials .testimonial-grid{
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 80%;
 }
-.testimonial-grid .card{
+.e-testimonials .card{
   display: flex;
   flex-direction: column;
   max-width: 33.33%;
@@ -278,30 +284,33 @@ p{
   align-items: center;
   padding-bottom: 50px;
 }
-.testimonial-grid .card .card-text{
-  width: 55%
+.e-testimonials .card .card-text{
+  width: 70%
 }
-.testimonial-grid .card .card-text h3{
+.e-testimonials .card .card-text h3{
   font-weight: 300;
   letter-spacing: 1.1px;
   font-size: 25px;
   margin-bottom: 20px;
 }
-.testimonial-grid .card .card-text p{
+.e-testimonials .card .card-text p{
   color: #878787;
   font-size: 18px;
   letter-spacing: 0.55px
 }
-.testimonial-grid .card figure{
+.e-testimonials .card figure{
   border-radius: 50%;
   width: 175px;
   height: 175px;
   margin-bottom: 35px;
 }
-.testimonial-grid .card figure img{
+.e-testimonials .card figure img{
   border-radius: 50%;
   width: 175px;
   height: 175px;
+}
+.display-slider{
+  display: none!important;
 }
 /* ------------------e-testimonials end here-------------- */
 
@@ -354,7 +363,6 @@ p{
   max-width: 20%;
   margin: 10px;
   flex: 0 0 20%;
-
 }
 .display-grid:hover .card{
   filter: blur(2px);
@@ -385,15 +393,21 @@ p{
   display: flex;
   flex-direction: row;
   padding-bottom: 75px;
-  justify-content: space-between;
 }
 .next-event .two-col .first-col{
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
+  padding-right: 15px;
+}
+.next-event .two-col .first-col iframe{
+  border: none;
+  width:490px;
+  height:500px
 }
 .next-event .two-col .second-col{
   width: 50%;
+  padding-left: 15px
 }
 .next-event .two-col .second-col form{
   display: flex;
@@ -416,6 +430,10 @@ p{
   flex: 0 0 20%;
   margin-left: 52%;
   color: #676767
+}
+.next-event .two-col .second-col form .send:hover{
+  background-color: #e2e2e4;
+  cursor: pointer;
 }
 .next-event .two-col .second-col form input:nth-child(3){
   max-width: 72%;
@@ -449,9 +467,7 @@ p{
   flex: 0 0 50%;
   max-width: 50%;
 }
-
 /* -----------about your next event ends here------------- */
-
 /* ---------------content-section ends here--------------- */
 
 /* -------footer starts here----------- */
