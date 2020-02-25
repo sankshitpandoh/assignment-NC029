@@ -179,8 +179,7 @@ p{
 }
 .dream-location .dream-content-section .text-section{
   width: 50%;
-  padding-left: 10%;
-  padding-bottom: 2%;
+  padding: 20px 0px 75px 170px;
 }
 .dream-location .dream-content-section .text-section h2{
   padding: 35px 0px;
@@ -280,7 +279,7 @@ p{
   padding-bottom: 50px;
 }
 .testimonial-grid .card .card-text{
-  width: 65%
+  width: 55%
 }
 .testimonial-grid .card .card-text h3{
   font-weight: 300;
@@ -291,6 +290,7 @@ p{
 .testimonial-grid .card .card-text p{
   color: #878787;
   font-size: 18px;
+  letter-spacing: 0.55px
 }
 .testimonial-grid .card figure{
   border-radius: 50%;
@@ -318,9 +318,9 @@ p{
 .section-heading p{
   color: #878787;
   font-size: 20px;
-  width: 75%;
+  width: 80%;
   text-align: center;
-  letter-spacing: 1.2px;
+  letter-spacing: 2px;
   padding-bottom: 75px;
 }
 .connect-with-us .connect-nav{
@@ -331,6 +331,9 @@ p{
 .connect-with-us .connect-nav a{
   display: flex;
   align-items: center;
+}
+.connect-with-us .connect-nav a figure i{
+  font-size: 20px
 }
 .connect-with-us .connect-nav a:hover p{
   text-decoration: underline;
@@ -352,10 +355,12 @@ p{
   margin: 10px;
 
 }
-.display-grid .card figure:hover{
+.display-grid:hover .card{
   filter: blur(2px);
 }
-
+.display-grid .card:hover{
+ filter: blur(0px);
+}
 .display-grid .card figure img{
   width: 100%;
 }
