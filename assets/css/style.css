@@ -82,7 +82,7 @@ p{
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  padding: 20px 0px;
+  padding: 5px 0px;
   font-family: 'Avenir-Light';
 }
 .header-main .header-container .header-nav figure img{
@@ -103,12 +103,12 @@ p{
   padding-right: 12px
 }
 .header-main .header-container .header-nav li a{
-  color: #706f6f;
-  border: 1.5px solid #878787;
-  width:150px;
-  height: 40px;
+  color: #717171;
+  border: 1.5px solid #717171;
+  width:135px;
+  height: 30px;
   display: flex;
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 400;
   justify-content: center;
   align-items: center;
@@ -346,13 +346,14 @@ p{
 .connect-with-us .display-grid{
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  max-width: 75%;
   justify-content: center;
   padding-bottom: 75px
 }
 .display-grid .card{
-  max-width: 25%;
+  max-width: 20%;
   margin: 10px;
+  flex: 0 0 20%;
 
 }
 .display-grid:hover .card{
@@ -365,11 +366,13 @@ p{
   width: 100%;
 }
 .display-grid .card:nth-child(1){
-  max-width: 50%;
+  max-width: 43%;
+  flex: 0 0 43%;
   margin: 10px;
 }
 .display-grid .card:nth-child(3n+4){
-  max-width: 50%;
+  max-width: 43%;
+  flex: 0 0 43%;
   margin: 10px;
 }
 /* ---------------------connect with us ends here------------------ */
