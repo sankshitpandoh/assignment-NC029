@@ -599,6 +599,7 @@ p{
       font-size: 30px;
       justify-content: space-between;
       margin-bottom: 75px;
+      display: flex;
     }
     .connect-with-us .mob-connect-nav figure{
       width:55px;
@@ -609,6 +610,9 @@ p{
     }
     .connect-with-us .display-grid{
       display: none;
+    }
+    .connect-with-us .mob-display-grid{
+      display: block;
     }
   }
 }
