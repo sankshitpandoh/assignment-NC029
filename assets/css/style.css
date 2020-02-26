@@ -559,7 +559,7 @@ p{
     }
     .dream-location .dream-content-section .text-section{
       padding:20px 10px 20px 10px;
-      width: 100;
+      width: 100%;
     }
     .e-testimonials .testimonial-grid{
       display: none;
