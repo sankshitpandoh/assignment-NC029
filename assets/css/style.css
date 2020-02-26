@@ -366,12 +366,18 @@ p{
   padding-left: 10px;
   font-size: 13px;
 }
+.connect-with-us .mob-connect-nav{
+  display: none;
+}
 .connect-with-us .display-grid{
   display: flex;
   flex-wrap: wrap;
   max-width: 75%;
   justify-content: center;
   padding-bottom: 75px
+}
+.connect-with-us .mob-display-grid{
+  display: none;
 }
 .display-grid .card{
   max-width: 20%;
