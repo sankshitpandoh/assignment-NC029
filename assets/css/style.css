@@ -577,13 +577,32 @@ p{
     }
     .e-testimonials .owl-nav .owl-prev{
       position: absolute;
-      top:50%;
+      top:0%;
       left: 0%;
     }
     .e-testimonials .owl-nav .owl-next{
       position: absolute;
-      top:50%;
+      top:0%;
       right: 0%;
+    }
+    .connect-with-us .connect-nav{
+      display: none;
+    }
+    .connect-with-us .mob-connect-nav{
+      width: 90%;
+      font-size: 30px;
+      justify-content: space-between;
+      margin-bottom: 75px;
+    }
+    .connect-with-us .mob-connect-nav figure{
+      width:55px;
+      height: 55px;
+    }
+    .connect-with-us .mob-connect-nav li{
+      padding: 0;
+    }
+    .connect-with-us .display-grid{
+      display: none;
     }
   }
 }
