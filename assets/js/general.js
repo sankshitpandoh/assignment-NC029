@@ -21,4 +21,8 @@ $('.display-slider').owlCarousel({
         }
     }
 })
+$('.hamburger').on('click', function(){
+    $('.ham-nav').css({'width': '100%'});
+    $('body').addClass('scroll-fixed');
+});
 });
