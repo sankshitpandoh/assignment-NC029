@@ -471,6 +471,9 @@ p{
 .next-event .two-col .second-col form textarea::placeholder{
   color: #676767
 }
+.next-event .two-col .m-address{
+  display: none;
+}
 .next-event .two-col .second-col .address h3{
   font-weight: 400;
   font-size: 23px;
@@ -639,6 +642,7 @@ p{
     }
     .next-event .two-col{
       flex-direction: column;
+      padding-bottom: 0px;
     }
     .next-event .two-col .first-col{
       width: 100vw;
@@ -676,7 +680,27 @@ p{
       margin-left: auto;
       margin-bottom: 50px;
     }
-    .next-event .two-col .second-col .address{
+    .next-event .two-col .m-address{
+      display: flex;
+      order: 3;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f8f8f8
+    }
+    .next-event .two-col .m-address h3{
+      padding: 25px 0;
+      font-weight: 400
+    }
+    .next-event .two-col .m-address p{
+      padding: 15px 0;
+    }
+    .next-event .two-col .m-address .contact-numbers{
+      display: flex;
+      width: 284px;
+      justify-content: space-between;
+      padding-bottom: 25px;
+    }
+    .next-event .two-col .second-col .d-address{
       display: none;
     }
     .footer-main .footer-container{
@@ -698,6 +722,7 @@ p{
       background-color: #fff;
       flex-direction: column;
       justify-content: center;
+      padding-top: 25px;
     }
     .footer-main .footer-right p{
       margin-bottom: 25px;
@@ -708,7 +733,7 @@ p{
     .footer-main .footer-right .f-s-nav{
       display: flex;
       justify-content: space-between;
-      width: 35%;
+      width: 50%;
       margin-bottom: 25px;
       font-size: 25px;
     }
