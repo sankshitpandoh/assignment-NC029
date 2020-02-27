@@ -613,7 +613,31 @@ p{
     }
     .connect-with-us .mob-display-grid{
       display: block;
+      max-width: 100%;
     }
+    .connect-with-us .mob-display-grid .card{
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .connect-with-us .mob-display-grid .owl-dots{
+      display: none;
+    }
+    .connect-with-us .mob-display-grid .owl-nav{
+      font-size: 100px;
+      color: #d1d3d4
+    }
+    .connect-with-us .mob-display-grid .owl-nav .owl-prev{
+      position: absolute;
+      top:0%;
+      left: 0%;
+    }
+    .connect-with-us .mob-display-grid .owl-nav .owl-next{
+      position: absolute;
+      top:0%;
+      right: 0%;
+    }
+
   }
 }
 /* ------------media queries end here-------------- */

@@ -23,7 +23,7 @@ $('.display-slider').owlCarousel({
 })
 $('.mob-grid-slider').owlCarousel({
     loop:true,
-    margin:10,
+    margin:100,
     nav:true,
     responsive:{
         0:{
