@@ -34,8 +34,17 @@ $('.mob-grid-slider').owlCarousel({
         }
     }
 })
+var Open = false;
 $('.hamburger').on('click', function(){
-    $('.ham-nav').css({'width': '100%'});
+    if (Open == false){
+    $('.ham-nav').css({'width': '35%','transition':'0.5s ease-in'});
     $('body').addClass('scroll-fixed');
-});
+    Open = true;
+    }
+    else{
+      $('.ham-nav').css({'width': '0%'});
+      $('body').removeClass('scroll-fixed');
+      Open = false
+    }
+    });
 });
