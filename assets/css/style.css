@@ -161,6 +161,9 @@ p{
   cursor: pointer;
   display: none;
 }
+.ham-nav{
+  display: none;
+}
 
 /* ------------header ends here--------------- */
 
